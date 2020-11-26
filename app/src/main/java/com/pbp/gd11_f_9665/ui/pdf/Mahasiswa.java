@@ -1,4 +1,4 @@
-package com.pbp.gd11_x_yyyy.ui.pdf;
+package com.pbp.gd11_f_9665.ui.pdf;
 
 public class Mahasiswa {
     private int nomor;

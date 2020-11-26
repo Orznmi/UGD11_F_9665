@@ -1,16 +1,15 @@
-package com.pbp.gd11_x_yyyy.ui.pdf;
+package com.pbp.gd11_f_9665.ui.pdf;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.pbp.gd11_x_yyyy.R;
+import com.pbp.gd11_f_9665.R;
 
 public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.MahasiswaViewHolder> {
     private Context context;

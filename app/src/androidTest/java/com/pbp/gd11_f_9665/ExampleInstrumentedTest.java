@@ -1,4 +1,4 @@
-package com.pbp.gd11_x_yyyy;
+package com.pbp.gd11_f_9665;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.pbp.gd11_x_yyyy", appContext.getPackageName());
+        assertEquals("com.pbp.gd11_f_9665", appContext.getPackageName());
     }
 }

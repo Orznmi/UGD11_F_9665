@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.pbp.gd11_x_yyyy"
+        applicationId "com.pbp.gd11_f_9665"
         minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
@@ -43,4 +43,10 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    //library
+    implementation 'com.itextpdf:itextg:5.5.10'
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+    implementation 'com.github.Shashank02051997:FancyToast-Android:0.1.8'
+    implementation 'com.github.Bleoo:WindowImageView:1.0.2'
+    implementation 'com.facebook.fresco:fresco:1.5.0'
 }

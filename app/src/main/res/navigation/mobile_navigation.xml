@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.pbp.gd11_x_yyyy.ui.home.HomeFragment"
+        android:name="com.pbp.gd11_f_9665.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -17,7 +17,7 @@
 
     <fragment
         android:id="@+id/nav_pdf"
-        android:name="com.pbp.gd11_x_yyyy.ui.pdf.PdfFragment"
+        android:name="com.pbp.gd11_f_9665.ui.pdf.PdfFragment"
         android:label="@string/menu_pdf"
         tools:layout="@layout/fragment_pdf" >
         <action
@@ -27,7 +27,7 @@
 
     <fragment
         android:id="@+id/nav_download"
-        android:name="com.pbp.gd11_x_yyyy.ui.download.DownloadFragment"
+        android:name="com.pbp.gd11_f_9665.ui.download.DownloadFragment"
         android:label="@string/menu_download"
         tools:layout="@layout/fragment_download" >
         <action
