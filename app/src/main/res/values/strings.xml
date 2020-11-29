@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">GD11_F_9665</string>
+    <string name="app_name">UGD11_F_9665</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">GUIDED LIBRARY 2</string>
+    <string name="nav_header_title">UNGUIDED LIBRARY 2</string>
     <string name="nav_header_subtitle">Orza - 180709665</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_home">Home</string>
@@ -20,7 +20,7 @@
     <string name="menu_pdf">Generate PDF</string>
     <string name="menu_download">Downloader</string>
     <string name="cetak">Cetak</string>
-    <string name="data_mahasiswa">DATA MAHASISWA</string>
+    <string name="data_buku">DATA BUKU</string>
     <string name="gambar">Gambar</string>
     <string name="musik">Musik</string>
     <string name="windowimageview">WindowImageView</string>

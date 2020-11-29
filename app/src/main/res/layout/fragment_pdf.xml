@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="76dp"
         android:layout_marginEnd="76dp"
-        android:text="@string/data_mahasiswa"
+        android:text="@string/data_buku"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvMhs"
+                android:id="@+id/rvBuku"
                 android:layout_width="match_parent"
                 android:layout_height="300dp" />
         </LinearLayout>

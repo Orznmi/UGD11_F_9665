@@ -41,7 +41,6 @@ public class HomeFragment extends Fragment {
         rv=root.findViewById(R.id.rvHome);
         rv.setLayoutManager(new LinearLayoutManager(getContext()));
         rv.setAdapter(new MyAdapter());
-
         return root;
     }
 
@@ -50,8 +49,8 @@ public class HomeFragment extends Fragment {
         Set<RequestListener> requestListeners = new HashSet<>();
         requestListeners.add(new RequestLoggingListener());
         ImagePipelineConfig config = ImagePipelineConfig.newBuilder(getContext())
-        // other setters
-            .setRequestListeners(requestListeners)
+                // other setters
+                .setRequestListeners(requestListeners)
                 .build();
         Fresco.initialize(getContext(), config);
         FLog.setMinimumLoggingLevel(FLog.VERBOSE);
@@ -63,7 +62,7 @@ public class HomeFragment extends Fragment {
 
         @Override
         public int getItemViewType(int position) {
-            if (position==1 || position==3 || position==5 || position==7 || position==9){
+            if (position==3 || position==8){
                 return 1;
             }
             return 0;
@@ -85,16 +84,16 @@ public class HomeFragment extends Fragment {
 
         @Override
         public void  onBindViewHolder(MyHolder holder,int position){
-            if(position==1 || position==5 || position==9){
+            if(position==8){
                 //menampilkan gambar pada recyler view dengan resource drawable
                 holder.windowImageView.bindRecyclerView(rv);
                 holder.windowImageView.setFrescoEnable(false);
-                holder.windowImageView.setImageResource(R.drawable.longs);
-            }else if(position==3 || position==7){
+                holder.windowImageView.setImageResource(R.drawable.bubble);
+            }else if(position==3){
                 //menampilkan gambar pada recycler view dengan resource luar menggunakan fresco
                 holder.windowImageView.bindRecyclerView(rv);
                 holder.windowImageView.setFrescoEnable(true);
-                holder.windowImageView.setImageURI(Uri.parse("https://unitepaper.com/wp-content/uploads/2020/02/720x1600-wallpaper-hd-for-phone-536.jpg"));
+                holder.windowImageView.setImageURI(Uri.parse("https://i.pinimg.com/736x/d5/70/43/d57043d41d1901bc751762c08c780e3b.jpg"));
             }else{
                 holder.itemView.setBackgroundColor(Color.rgb((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
             }
@@ -108,7 +107,7 @@ public class HomeFragment extends Fragment {
         }
         class MyHolder extends RecyclerView.ViewHolder{
             WindowImageView windowImageView;
-                public MyHolder(View itemView){
+            public MyHolder(View itemView){
                 super(itemView);
                 windowImageView=itemView.findViewById(R.id.wiv);
             }
